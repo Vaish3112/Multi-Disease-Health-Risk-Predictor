@@ -19,15 +19,15 @@ This project focuses on simplicity, interactivity, and clean UI — built entire
 
 ## 💡 Key Features
 
-- 🔹 Predicts risk for 4 major lifestyle diseases  
-- 🔹 Interactive and responsive card-based UI  
-- 🔹 Personalized risk recommendations (Low / Medium / High)  
-- 🔹 Circular gauge showing risk percentage visually  
-- 🔹 Dynamic bar chart displaying user inputs vs. healthy benchmarks  
-- 🔹 Tooltips and benchmark lines for comparison clarity  
-- 🔹 Auto-generated PDF health report (includes inputs, results, and guidance)  
-- 🔹 Smooth navigation using localStorage (no backend needed)  
-- 🔹 Consistent theme, typography, and color scheme across pages  
+🔹 Predicts risk for 4 major lifestyle diseases  
+🔹 Interactive and responsive card-based UI  
+🔹 Personalized risk recommendations (Low / Medium / High)  
+🔹 Circular gauge showing risk percentage visually  
+🔹 Dynamic bar chart displaying user inputs vs. healthy benchmarks  
+🔹 Tooltips and benchmark lines for comparison clarity  
+🔹 Auto-generated PDF health report (includes inputs, results, and guidance)  
+🔹 Smooth navigation using localStorage (no backend needed)  
+🔹 Consistent theme, typography, and color scheme across pages  
 
 ---
 
