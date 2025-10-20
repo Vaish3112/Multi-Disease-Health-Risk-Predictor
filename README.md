@@ -61,41 +61,23 @@ This project focuses on simplicity, interactivity, and clean UI — built entire
 ## 🗂️ Project Structure
 
 Multi-Disease Health Risk Predictor                                                                                                                                
-
-|                                                                                                                                                                   
-
-├── index.html                     → Homepage                                                                                                                       
-
-├── homepage.css                   → Homepage styling                                                                                                               
-
+|                                                                                                                                                                  
+├── index.html                     → Homepage                                                                                                                      
+├── homepage.css                   → Homepage styling                                                                                                              
 |                                                                                                                                                                
-
-├── categories.html                → Disease selection (4 cards)                                                                                                    
-
+├── categories.html                → Disease selection (4 cards)                                                                                                   
 ├── categories.css                 → Category page styling                                                                                                         
-
 │                                                                                                                                                                  
-
 ├── about_diabetes.html                                                                                                                                            
-
 ├── about_heart.html                                                                                                                                               
-
 ├── about_hypertension.html                                                                                                                                        
-
 ├── about_hyperlipidemia.html      → Informational pages                                                                                                           
-
 ├── about.css                      → Common “About” styling                                                                                                        
-
-│                                                                                                                                                                  
-
+│                                                                                                                                                                 
 ├── diabetes_predictor.html                                                                                                                                        
-
 ├── heart_predictor.html                                                                                                                                           
-
 ├── hypertension_predictor.html                                                                                                                                    
-
 ├── hyperlipidemia_predictor.html  → Input forms                                                                                                                   
-
 ├── predictor.css                  → Shared predictor styling                                                                                                      
 ├── predictor.js                   → Form logic, localStorage handling                                                                                             
 │                                                                                                                                                                  
