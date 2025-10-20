@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('assets/category.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+/* Wrapper Layout */
+.card-container {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+p.subheading {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+/* Grid for cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+/* Card Style */
+.card {
+  background-color: #f0f0ff; 
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card:nth-child(2) {
+  background-color: #fffacd; 
+}
+
+.card:nth-child(3) {
+  background-color: #d6f5d6; 
+}
+
+.card:nth-child(4) {
+  background-color: #d0f0ff; 
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Hover Shadow */
+.card:nth-child(1):hover {
+  box-shadow: 0 8px 16px rgba(200, 200, 255, 0.7);
+}
+.card:nth-child(2):hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 150, 0.6);
+}
+.card:nth-child(3):hover {
+  box-shadow: 0 8px 16px rgba(150, 255, 150, 0.6);
+}
+.card:nth-child(4):hover {
+  box-shadow: 0 8px 16px rgba(150, 230, 255, 0.6);
+}
+
+/* Icon and text */
+.card img {
+  width: 80px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size:1.07rem;
+  color: #333;
+  font-weight:700; 
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Learn more about diseases*/
+.learn-more-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #0077b6;   
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+  color: #023e8a;  
+}
+
+/*Back button*/
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1000;
+  border: 2px solid #fff;
+
+}
+
+.back-button:hover {
+  background-color: #666;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+  background-color: #222;
+}

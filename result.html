@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="result.css">
+
+</head>
+<body>
+  <div class="results-container">
+    <h1>Your Prediction Result</h1>
+    
+    <!-- Risk Text -->
+    <p id="risk-text">Your risk: </p>
+
+    <!-- Gauge -->
+    <div class="gauge-container">
+      <svg width="150" height="150">
+        <circle cx="75" cy="75" r="70" stroke="#ddd" stroke-width="15" fill="none"/>
+        <circle id="gauge-fill" cx="75" cy="75" r="70" stroke="green" stroke-width="15" fill="none" stroke-dasharray="439.82" stroke-dashoffset="439.82" stroke-linecap="round"/>
+      </svg>
+      <p id="gauge-text">0%</p>
+    </div>
+    
+    <!-- Charts -->
+    <div class="chart-container">
+       <canvas id="diabetesChart" width="400" height="200"></canvas>
+    </div>
+    
+    <!-- Recommendations -->
+    <div class="advice">
+      <p id="advice-text">Your advice will appear here based on the risk level.</p>
+    </div>
+    
+    <!-- Export Options -->
+    <div class="export-options">
+    <button id="download-pdf">Download Report PDF</button>
+    </div>
+    
+    <!-- Back Button -->
+    <a href="categories.html" class="back-button">BACK</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="result.js"></script>
+
+</body>
+</html>

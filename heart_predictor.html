@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Predictor</title>
+    <link rel="stylesheet" href="predictor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="heart-page">
+
+    <main>
+        <header>
+            <h1>Heart Disease Risk Predictor</h1>
+        </header>
+
+        <form id="heartForm">
+            <!-- 1. Age -->
+            <label for="age">Age (years):</label>
+            <input type="number" id="age" min="1" required>
+
+            <!-- 2. Gender -->
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <!-- 3. Cholesterol -->
+            <label for="cholesterol">Cholesterol (mg/dL):</label>
+            <input type="number" id="cholesterol" required>
+
+            <!-- 4. Blood Pressure -->
+            <label for="bp">Blood Pressure (Systolic/Diastolic mmHg):</label>
+            <input type="text" id="bp" placeholder="120/80" required>
+
+            <!-- 5. Smoking -->
+            <label for="smoking">Smoking Habit:</label>
+            <select id="smoking" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <!-- 6. Diabetes -->
+            <label for="diabetes">Diabetes:</label>
+            <select id="diabetes" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <!-- 7. Physical Activity -->
+            <label for="activity">Physical Activity Level:</label>
+            <select id="activity" required>
+                <option value="">Select</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <!-- 8. Family History -->
+            <label for="familyHistory">Family History of Heart Disease:</label>
+            <select id="familyHistory" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <button type="submit">Calculate Risk</button>
+        </form>
+        <div id="result" class="result-box"></div>
+
+    </main>
+
+
+    <!-- Collapsible Learn About Inputs button -->
+    <button class="collapsible">Learn About Inputs</button>
+    <div class="content">
+        <p><b>1. Age:</b> Enter your age in years. Heart disease risk increases as you get older. For example, people over 45 (men) or 55 (women) have higher risk.</p><br>
+
+        <p><b>2. Gender:</b> Select your gender. Risk levels may differ slightly between males and females.</p><br>
+
+        <p><b>3. Cholesterol:</b> Total cholesterol level in mg/dL. High cholesterol can cause plaque build-up in arteries, increasing heart disease risk. You can measure it via a blood test at a lab or clinic.</p><br>
+
+        <p><b>4. Blood Pressure:</b> Enter your systolic/diastolic pressure (e.g., 120/80 mmHg). High blood pressure forces the heart to work harder and is a major risk factor. You can measure it at home with a BP monitor or at a clinic.</p><br>
+
+        <p><b>5. Smoking:</b> Select “Yes” if you smoke. Smoking damages blood vessels and greatly increases the risk of heart disease.</p><br>
+
+        <p><b>6. Diabetes:</b> Select “Yes” if you have diabetes. Diabetes increases the risk of heart disease because high blood sugar can damage arteries over time.</p><br>
+
+        <p><b>7. Physical Activity Level:</b> Choose your activity level. Regular exercise improves heart health and lowers risk. Examples:</p>
+            <ul style="margin-left: 20px;">
+                <li><b>Low:</b> Mostly sitting, little or no exercise.</li>
+                <li><b>Medium:</b> Walking or light exercise 2–3 times a week.</li>
+                <li><b>High:</b> Regular exercise, sports, or physically active lifestyle.</li><br>
+            </ul>
+
+        <p><b>8. Family History of Heart Disease:</b> Select “Yes” if any close family members (parents or siblings) have had heart disease. Genetics can influence your risk.</p><br>
+
+    </div>
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="location.href='categories.html'">BACK</button>
+
+    <script src="predictor.js"></script>
+
+</body>
+</html>

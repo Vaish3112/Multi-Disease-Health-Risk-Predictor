@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disease Risk Predictor</title>
+  <link rel="stylesheet" href="categories.css">
+</head>
+<body>
+
+  <div class="card-container">
+    <h1>Choose a Disease Predictor</h1>
+    <p class="subheading">Select a disease to check your health risk instantly</p>
+
+    <div class="card-grid">
+      <!-- Card 1: Diabetes -->
+      <div class="card" onclick="location.href='diabetes_predictor.html'">
+        <img src="assets/diabetes.jpeg" alt="Diabetes Icon">
+        <h2>Diabetes Predictor</h2>
+        <p>Check your risk of diabetes based on health indicators.</p>
+          <div class="learn-more-container">
+        <a href="about_diabetes.html" class="learn-more" onclick="event.stopPropagation();">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Card 2: Heart Disease -->
+      <div class="card" onclick="location.href='heart_predictor.html'">
+        <img src="assets/heart.jpeg" alt="Heart Disease Icon">
+        <h2>Heart Disease Predictor</h2>
+        <p>Evaluate your chances of developing heart-related issues.</p>
+        <div class="learn-more-container">
+        <a href="about_heart.html" class="learn-more" onclick="event.stopPropagation();">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Card 3: Hypertension -->
+      <div class="card" onclick="location.href='Hypertension_predictor.html'">
+        <img src="assets/blood-pressure.jpeg" alt="Hypertension Icon">
+        <h2>Hypertension Predictor</h2>
+        <p>Find out if you are at risk of high blood pressure.</p>
+        <div class="learn-more-container">
+        <a href="about_hypertension.html" class="learn-more" onclick="event.stopPropagation();">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Card 4: Obesity -->
+      <div class="card" onclick="location.href='hyperlipidemia_predictor.html'">
+        <img src="assets/hyperlipidemia.jpeg" alt="hyperlipidemia Icon">
+        <h2>Hyperlipidemia Predictor</h2>
+        <p>Check your cholesterol levels and hyperlipidemia risk.</p>
+        <div class="learn-more-container">
+        <a href="about_hyperlipidemia.html" class="learn-more" onclick="event.stopPropagation();">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Back Button -->
+  <a href="index.html" class="back-button">BACK</a>
+
+</body>
+</html>

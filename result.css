@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  background-image: url('assets/result.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.results-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Gauge */
+.gauge-container {
+  margin-top: 20px;
+}
+
+#gauge-fill {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: stroke-dashoffset 1s ease, stroke 1s ease;
+}
+
+/* Recommendations */
+.advice {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left; 
+}
+
+.advice h3 {
+    margin: 5px 0;
+    color: #d32f2f;
+    text-align: center; 
+}
+
+.advice h4 {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.advice ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+
+/* Export Buttons */
+.export-options {
+  margin-top: 20px;
+}
+
+.export-options button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.export-options button:hover {
+  background: #0056b3;
+}
+
+/*Back button*/
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1000;
+  border: 2px solid #fff;
+
+}
+
+.back-button:hover {
+  background-color: #666;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+  background-color: #222;
+}
+
+.chart-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
