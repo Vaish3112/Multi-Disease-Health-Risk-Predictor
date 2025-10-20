@@ -97,10 +97,8 @@ Multi-Disease Health Risk Predictor
 ├── hyperlipidemia_predictor.html  → Input forms                                                                                                                   
 
 ├── predictor.css                  → Shared predictor styling                                                                                                      
-
 ├── predictor.js                   → Form logic, localStorage handling                                                                                             
-
-│                                                                                                                                                                   
+│                                                                                                                                                                  
 ├── result.html                    → Displays results, charts, and recommendations                                                                                  
 ├── result.css                     → Result page design                                                                                                             
 ├── result.js                      → Gauge, chart, and PDF generation logic                                                                                         
