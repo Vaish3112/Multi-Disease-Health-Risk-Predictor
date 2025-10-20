@@ -61,6 +61,7 @@ This project focuses on simplicity, interactivity, and clean UI — built entire
 ## 🗂️ Project Structure
 
 Multi-Disease Health Risk Predictor
+
 |
 
 ├── index.html                     → Homepage
