@@ -88,3 +88,8 @@ Multi-Disease Health Risk Predictor
 └── assets/                        → Backgrounds, icons, and logo
 
 ---
+
+## 🌐 Live Demo
+🚀 **View Project Here:** [https://vaish3112.github.io/Multi-Disease-Health-Risk-Predictor/](https://vaish3112.github.io/Multi-Disease-Health-Risk-Predictor/)
+
+---
